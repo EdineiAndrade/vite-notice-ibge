@@ -1,0 +1,32 @@
+* {
+  color: #000;
+}
+.card-notice {
+  background-color: #fff;
+  display: block;
+  align-items: center;
+  justify-cotent: center;
+
+  max-width: 900px;
+  border: 2px solid green;
+
+  margin: 20px;
+  padding: 20px;
+}
+.detail-notice {
+}
+.img-notice {
+  align-items: stretch;
+}
+.img-notice img {
+  max-width: 450px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+}
+.date-notice {
+  display: flex;
+  justify-content: center;
+}
