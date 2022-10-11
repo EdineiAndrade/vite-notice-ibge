@@ -11,7 +11,7 @@ export function ListNotice({notice}) {
         //style={{backgroundImage: `url(${imgUrlStart}${imgUrlEnd}) cover`} } 
         >  <div className="title-notice">
                 <h2>{notice.titulo}</h2>
-                <div>
+                <div className="date-notice">
                  <strong>Data Publicação: {notice.data_publicacao}</strong>   
                  <strong>{notice.produtos}</strong>
                 </div>
