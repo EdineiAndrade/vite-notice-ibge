@@ -1,9 +1,9 @@
 import './main.css'
 export function ListNotice({notice}) {
     const imgUrlStart = "https://agenciadenoticias.ibge.gov.br/"
-    var imgUrlEnd1 = notice.imagens 
-    var imgUrlEnd2 = imgUrlEnd1.split(',')
-    var imgUrlEnd3 = imgUrlEnd2[0].length - 1
+    const imgUrlEnd1 = notice.imagens 
+    const imgUrlEnd2 = imgUrlEnd1.split(',')
+    const imgUrlEnd3 = imgUrlEnd2[0].length - 1
     const imgUrlEnd = imgUrlEnd2[0].substring(16, imgUrlEnd3)
 
     return(
